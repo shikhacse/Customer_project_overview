@@ -90,11 +90,10 @@ Created using **Power Query’s Advanced Group By**:
 
 These were added using **Transform → Add Column → Custom Column**:
 
-```powerquery
-// Capital Revenue
+ Capital Revenue
 = [Budget] * 0.5 - ([salary cost] * 2 + [Project Cost])
 
-// 2 year Budget
+ 2 year Budget
 = [Budget] * 0.5
 ---
 ## 📸 Final Dashboard Preview
