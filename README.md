@@ -62,6 +62,8 @@ JOIN departments d ON e.department_id = d.Department_ID
 JOIN project_assignments pa ON pa.employee_id = e.employee_id
 JOIN project_status p ON p.project_id = pa.project_id;
 ```
+![sql Overview](assets/images/sql.PNG)
+
 ### 2️⃣ `Head_Shots` – CSV Import
 
 This CSV file contains:
@@ -103,4 +105,4 @@ The dashboard contains:
 - 💰 **Budget Breakdown** — budget by department and project
 - 📋 **Goals Matrix** — includes Capital Revenue and 2-Year Budget calculations
 
-![Dashboard Overview](./images/project_overview_dashboard.png)
+![Dashboard Overview](assets/images/Dashboard.PNG)
